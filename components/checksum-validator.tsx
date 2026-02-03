@@ -170,7 +170,7 @@ export function ChecksumValidator() {
           <div className="space-y-2">
             <Label className="text-foreground">Payment URL or Query String</Label>
             <Textarea
-              placeholder="https://merchant.com/return?vnp_Amount=1000000&vnp_BankCode=NCB&...&vnp_SecureHash=abc123..."
+              placeholder="https://sandbox.vnpayment.vn/paymentv2/vpcpay.html?vnp_Amount=1806000&vnp_Command=pay&vnp_CreateDate=20210801153333&vnp_CurrCode=VND&vnp_IpAddr=127.0.0.1&vnp_Locale=vn&vnp_OrderInfo=Thanh+toan+don+hang+%3A5&vnp_OrderType=other&vnp_ReturnUrl=https%3A%2F%2Fdomainmerchant.vn%2FReturnUrl&vnp_TmnCode=DEMOV210&vnp_TxnRef=5&vnp_Version=2.1.0&vnp_SecureHash=..."
               value={paymentUrl}
               onChange={(e) => setPaymentUrl(e.target.value)}
               className="min-h-[120px] font-mono text-sm bg-secondary border-border"
