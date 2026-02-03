@@ -215,6 +215,7 @@ export function Sidebar() {
           <p className="text-xs text-muted-foreground">
             PAY Integration Only
           </p>
+          <p className="text-xs text-muted-foreground">@SangLV</p>
         </div>
       </div>
     </aside>
